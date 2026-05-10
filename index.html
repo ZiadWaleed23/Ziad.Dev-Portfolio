@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Waleed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor"></div>
+<div class="wrap">
+  <nav class="nav">
+    <div class="nav-logo">Ziad<span>.</span>Dev</div>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <button class="tog" id="tog" aria-label="Toggle theme">
+        <div class="tog-knob" id="knob">☀️</div>
+      </button>
+    </div>
+  </nav>
+
+  <div class="hero" id="about">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <div class="hero-dot"></div>
+        <span class="hero-eyebrow-text">Open to work</span>
+      </div>
+      <h1>Frontend<br><em>Developer</em><br>&amp; Designer</h1>
+      <p class="hero-desc">I build clean, fast, and beautiful web interfaces that clients love — from pixel-perfect layouts to smooth interactions.</p>
+      <div class="hero-btns">
+        <a href="#work" class="btn btn-solid">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hero-card-title">At a glance</div>
+        <div class="stat-row">
+          <div class="stat">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Years exp.</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">7</div>
+            <div class="stat-label">Skills</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">🇪🇬</div>
+            <div class="stat-label">Cairo, Egypt</div>
+          </div>
+        </div>
+        <div class="hero-card-title" style="margin-bottom:.75rem;">My stack</div>
+        <div class="hero-stack">
+          <span class="stack-pill">HTML</span>
+          <span class="stack-pill">CSS</span>
+          <span class="stack-pill">JavaScript</span>
+          <span class="stack-pill">Git</span>
+          <span class="stack-pill">GitHub</span>
+          <span class="stack-pill">C++</span>
+          <span class="stack-pill">Graphic Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="skills">
+    <div class="section-header">
+      <div class="section-title">Skills</div>
+      <div class="section-num">01</div>
+    </div>
+    <div class="skills-list" id="skillsList"></div>
+  </div>
+
+  <div class="section" id="work">
+    <div class="section-header">
+      <div class="section-title">Selected work</div>
+      <div class="section-num">02</div>
+    </div>
+    <div class="projects-grid">
+      <div class="proj-card">
+        <div class="proj-index">Project 01</div>
+        <div class="proj-title">E-Commerce Storefront</div>
+        <p class="proj-desc">Fully responsive storefront with cart system, product filters, and smooth animations.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span class="proj-tag">JS</span>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-index">Project 02</div>
+        <div class="proj-title">Brand Identity System</div>
+        <p class="proj-desc">Complete visual identity for a tech startup — logo, colors, typography, and brand guide.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Graphic Design</span><span class="proj-tag">Branding</span>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-index">Project 03</div>
+        <div class="proj-title">Analytics Dashboard</div>
+        <p class="proj-desc">Interactive dashboard with live charts, dark/light mode, and responsive layout.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">JS</span><span class="proj-tag">CSS</span><span class="proj-tag">Git</span>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-index">Project 04</div>
+        <div class="proj-title">Algorithm Visualizer</div>
+        <p class="proj-desc">C++ sorting algorithms rendered visually in the browser with step-by-step animation.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">C++</span><span class="proj-tag">Canvas</span>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <div class="section-header">
+      <div class="section-title">Let's work together</div>
+      <div class="section-num">03</div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <h2>Got a project<br>in mind?</h2>
+        <p>I'm available for freelance projects, full-time roles, and collaborations. Drop me a message and let's create something great.</p>
+        <a href="mailto:ziad@example.com" class="btn btn-solid">Send a message</a>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:ziad@example.com" class="contact-link">
+          <div class="cl-info">
+            <div class="cl-label">Email</div>
+            <div class="cl-val">ziad@example.com</div>
+          </div>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="https://github.com/ziadwaleed" target="_blank" class="contact-link">
+          <div class="cl-info">
+            <div class="cl-label">GitHub</div>
+            <div class="cl-val">github.com/ziadwaleed</div>
+          </div>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="https://linkedin.com/in/ziadwaleed" target="_blank" class="contact-link">
+          <div class="cl-info">
+            <div class="cl-label">LinkedIn</div>
+            <div class="cl-val">linkedin.com/in/ziadwaleed</div>
+          </div>
+          <span class="cl-arr">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">© 2025 Ziad Waleed — All rights reserved</div>
+    <div class="footer-badge">
+      <div class="footer-badge-dot"></div>
+      Available for new projects
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
