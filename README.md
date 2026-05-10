@@ -25,6 +25,6 @@ A modern, minimalist personal portfolio designed to showcase skills and projects
 ├── style.css    # UI styling, themes, and animations
 └── script.js    # Interactivity, theme logic, and dynamic skills
 
-<img width="1343" height="758" alt="image" src="https://github.com/user-attachments/assets/c09cba9f-d388-4b7f-9a91-91a5330b20ea" />
-<img width="1343" height="752" alt="image" src="https://github.com/user-attachments/assets/63a076bf-648d-480b-a36e-7b4dcdeafc34" />
-
+| Light Mode | Dark Mode |
+|---|---|
+| ![Light](screenshots/light-mode.png) | ![Dark](screenshots/dark-mode.png) |
