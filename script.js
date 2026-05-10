@@ -36,21 +36,3 @@ tog.addEventListener('click', () => {
   document.body.classList.toggle('dark', dark);
   knob.textContent = dark ? '🌙' : '☀️';
 });
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  // --- 1. Custom Cursor ---
-  const cursor = document.querySelector('.cursor');
-  document.addEventListener('mousemove', (e) => {
-    cursor.style.left = e.clientX + 'px';
-    cursor.style.top = e.clientY + 'px';
-  });
-
-  // تكبير الماوس عند الوقوف على اللينكات
-  const links = document.querySelectorAll('a, button, .contact-link, .proj-card');
-  links.forEach(link => {
-    link.addEventListener('mouseenter', () => cursor.classList.add('grow'));
-    link.addEventListener('mouseleave', () => cursor.classList.remove('grow'));
-  });
-  
-});
