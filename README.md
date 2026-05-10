@@ -18,13 +18,15 @@ A modern, minimalist personal portfolio designed to showcase skills and projects
 * **JavaScript (Vanilla):** Logic for theme toggling, custom cursor tracking, and dynamic content rendering.
 * **Google Fonts:** Utilizing *Playfair Display* for headings and *Inter* for body text.
 
+
+| Light Mode | Dark Mode |
+|---|---|
+| ![Light](screenshots/light-mode.png) | ![Dark](screenshots/dark-mode.png) |
+
+
 ## 📁 Project Structure
 
 ```text
 ├── index.html   # Core structure and content
 ├── style.css    # UI styling, themes, and animations
 └── script.js    # Interactivity, theme logic, and dynamic skills
-
-| Light Mode | Dark Mode |
-|---|---|
-| ![Light](screenshots/light-mode.png) | ![Dark](screenshots/dark-mode.png) |
