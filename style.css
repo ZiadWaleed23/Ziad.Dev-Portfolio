@@ -449,30 +449,3 @@ body.dark .tog-knob{transform:translateX(18px);}
   0%,100%{opacity:1;}
   50%{opacity:.3;}
 }
-
-
-
-
-/* تصميم الماوس */
-.cursor {
-  width: 20px;
-  height: 20px;
-  border: 2px solid var(--dot);
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none; /* عشان ميعطلش الضغط على الزراير */
-  z-index: 9999;
-  transition: transform 0.1s ease, background 0.3s ease;
-  transform: translate(-50%, -50%);
-}
-
-/* حركة الماوس لما يقف على لينك */
-.cursor.grow {
-  transform: translate(-50%, -50%) scale(2.5);
-  background: rgba(74, 144, 164, 0.1);
-  border-color: var(--dot);
-}
-
-/* إخفاء الماوس الأصلي (اختياري بس بيبقى أشيك) */
-body { cursor: none; }
-a, button, .contact-link { cursor: none; }
